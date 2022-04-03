@@ -269,14 +269,14 @@ int main() {
 	outpst << std::endl;
 
 	//print the system information at the top of the output file
-	FIXOUT(std::cout, "# Thermal Conductivity       : " << kay << " [...]" << std::endl);
-	FIXOUT(std::cout, "# Density                    : " << roh << " [...]" << std::endl);
-	FIXOUT(std::cout, "# Specific heat              : " << cee << " [...]" << std::endl);
-	FIXOUT(std::cout, "# Space step                 : " << deltax << " [...]" << std::endl);
-	FIXOUT(std::cout, "# Final space                : " << Fx << " [...]" << std::endl);
-	FIXOUT(std::cout, "# Time step                  : " << deltat << " [...]" << std::endl);
-	FIXOUT(std::cout, "# Final time                 : " << Ft << " [...]" << std::endl);
-	FIXOUT(std::cout, "# Temprature of nanoparticle : " << nanot << " [...]" << std::endl);
+	FIXOUT(std::cout, "# Thermal Conductivity       : " << kay << " [W.m-1K-1]" << std::endl);
+	FIXOUT(std::cout, "# Density                    : " << roh << " [kg m-3]" << std::endl);
+	FIXOUT(std::cout, "# Specific heat              : " << cee << " [J⋅kg−1⋅K−1]" << std::endl);
+	FIXOUT(std::cout, "# Space step                 : " << deltax << " [m]" << std::endl);
+	FIXOUT(std::cout, "# Final space                : " << Fx << " [m]" << std::endl);
+	FIXOUT(std::cout, "# Time step                  : " << deltat << " [s]" << std::endl);
+	FIXOUT(std::cout, "# Final time                 : " << Ft << " [s]" << std::endl);
+	FIXOUT(std::cout, "# Temprature of nanoparticle : " << nanot << " [C]" << std::endl);
 	FIXOUT(std::cout, "# Number of itterations      : " << Ni << " [...]" << std::endl);
 	FIXOUT(std::cout, "# Outputting data to         : " << "2D1M_CN_test4.dat" << std::endl);
 
