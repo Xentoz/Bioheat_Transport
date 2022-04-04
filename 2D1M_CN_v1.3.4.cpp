@@ -130,7 +130,7 @@ double SOR(double K, double P, double C, double DX, double DT, double TU, double
 }
 //---------------------------------------------------------------------------------------------
 //TEMP
-//Temprature as a function of space and time
+//Set boundary conditions for senario
 void TSIN(double DX, double DT, double FX, double NX, std::vector< std::vector<double> >& NTEMP) {
 
 	for (int i = 0; i < NX; i++)
